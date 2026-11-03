@@ -173,6 +173,37 @@ const novels = [
     cover: "An Chaha.jpg",
     pdf: "https://drive.google.com/file/d/1LHcY5zSczS_fN4Y1aUh6Ce5jQS9a9kN_/view?usp=drivesdk"
 },
+    {
+    title: "Taar-e-Ankaboot Aur Titli (تارِ عنکبوت اور تتلی)",
+    author: "Irsa Anjum (ارِسہ انجم)",
+    instagram: "https://www.instagram.com/drirsa.writes/",
+    genre: "Social Reform · Feminist · Dark Reality · Women with Spine",
+    status: "Ongoing",
+    description: "ناول \"تارِ عنکبوت اور تتلی\" مصنفہ ارسہ انجم کا پہلا ناول ہے۔ یہ ہمارے معاشرے کے ان سیاہ اور تلخ حقائق کا آئینہ دار ہے جن پر اکثر خاموشی کی چادر ڈال دی جاتی ہے۔ حقیقی واقعات کے سنگِ میل پر استوار یہ کہانی اصلاحِ معاشرہ، حقوقِ نسواں کی پامالی اور ناانصافیوں کو بے نقاب کرتی ہے۔ اس کہانی کا اصل حسن وہ باہمت عورتیں ہیں جو حالات کے سامنے چٹان بن کر کھڑی ہو جاتی ہیں۔",
+    cover: "Taar E Ankaboot Aur Titli.jpg",
+    pdfs: [
+        {
+            title: "READ EPISODES 01–03",
+            link: "https://drive.google.com/file/d/10jZnJOLVtihEXW2ypVuCFnhZsh1XtJdp/view?usp=drivesdk"
+        }
+    ]
+},
+
+{
+    title: "Andheron Ke Sodaagar (اندھیروں کے سوداگر)",
+    author: "Aina Hussain",
+    instagram: "https://www.instagram.com/talia.binte.murad/",
+    genre: "Social Issues · Romance",
+    status: "Ongoing",
+    description: "A story revolving around Azalfa and Mustafa, exploring one-sided love, past trauma, and women empowerment.",
+    cover: "Andheron Ke Sodaagar.jpg",
+    pdfs: [
+        {
+            title: "READ EPISODE 01",
+            link: "https://drive.google.com/file/d/1h285PNGmNW9-KJ0Rg2XUMrZ_mZEkEqaf/view?usp=drivesdk"
+        }
+    ]
+},
 ];
 
 const grid = document.getElementById("book-grid");
