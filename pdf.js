@@ -204,6 +204,16 @@ const novels = [
         }
     ]
 },
+    {
+    title: "I Loved You, Dad",
+    author: "Zumer",
+    instagram: "https://www.instagram.com/writer.zumer/",
+    genre: "Psychological Drama · Family Trauma · Childhood Abuse · Emotional Neglect · Love · Betrayal",
+    status: "Complete",
+    description: "I Loved You, Dad is an emotionally intense psychological story about Nora, whose childhood is marked by loss, betrayal, and painful memories. It explores the devastating consequences of childhood trauma, the complexities of family relationships, and how love can coexist with anger, resentment, and revenge. A story of a broken childhood, buried truths, and emotional scars that remain long after the pain has passed.",
+    cover: "I Loved You, Dad.jpg",
+    pdf: "https://drive.google.com/file/d/1OahcbBSpWXcTTlOM4nKtJkyUTRskItU0/view?usp=drivesdk"
+},
 ];
 
 const grid = document.getElementById("book-grid");
