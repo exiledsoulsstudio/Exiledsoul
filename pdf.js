@@ -224,6 +224,16 @@ const novels = [
     cover: "Mojzay Hotay Hain.jpg",
     pdf: "https://drive.google.com/file/d/1zFYeaT0fOEr6RZCAx86j12LTvbyRJu3J/view?usp=drivesdk"
 },
+    {
+    title: "Al Qassam k Mujahid",
+    author: "Huda",
+    instagram: "https://www.instagram.com/_author_huda/",
+    genre: "Fictional · Islamic · Political · Suspense · Thriller · Historical · Humorous",
+    status: "Complete",
+    description: "القسام کے مجاہد، کہانی ہے یروشلم سے شروع ہو کر یروشلم میں ہی ختم ہونے والی ایسی انوکھی داستان جس کے کردار آخر تک آپ کو اپنے ساتھ باندھ کر رکھیں گے۔در پردہ کھلتے راز اور کئی نئے کردار کو آپ کو چونکا دیں گے۔ یہاں آپ کو غزہ کی ان گراؤنڈ رئیلٹی سے زیادہ انڈر گراؤنڈ رئیلٹی دکھاتی یہ کہانی کہیں غزہ کی ٹنلز تک پہنچا دے گی۔",
+    cover: "Al Qassam k Mujahid.jpg",
+    pdf: "https://drive.google.com/file/d/1GKbku5MwVzU5VQlUAIjuXSCCRX7STP0M/view?usp=drivesdk"
+    },
 ];
 
 const grid = document.getElementById("book-grid");
