@@ -214,6 +214,16 @@ const novels = [
     cover: "I Loved You, Dad.jpg",
     pdf: "https://drive.google.com/file/d/1OahcbBSpWXcTTlOM4nKtJkyUTRskItU0/view?usp=drivesdk"
 },
+    {
+    title: "Mojzay Hotay Hain (معجزے ہوتے ہیں)",
+    author: "Alishba Hamid",
+    instagram: "https://www.instagram.com/alishbahamidkhan/",
+    genre: "Fiction · Halal Love",
+    status: "Complete",
+    description: "کہانی ہے قربانی کی، اللہ کے لیے دی گئی قربانی کی، صبر کی اور انتظار کی۔ ہر زخمی دل کے نام، ہر چھلنی روح کے نام جو ہیلنگ فیز میں ہے۔",
+    cover: "Mojzay Hotay Hain.jpg",
+    pdf: "https://drive.google.com/file/d/1zFYeaT0fOEr6RZCAx86j12LTvbyRJu3J/view?usp=drivesdk"
+},
 ];
 
 const grid = document.getElementById("book-grid");
