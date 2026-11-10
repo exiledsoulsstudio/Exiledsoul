@@ -191,7 +191,7 @@ const novels = [
 
 {
     title: "Andheron Ke Sodaagar (اندھیروں کے سوداگر)",
-    author: "Aina Hussain",
+    author: "Rimsha hussain",
     instagram: "https://www.instagram.com/talia.binte.murad/",
     genre: "Social Issues · Romance",
     status: "Ongoing",
@@ -200,7 +200,7 @@ const novels = [
     pdfs: [
         {
             title: "READ EPISODE 01",
-            link: "https://drive.google.com/file/d/1h285PNGmNW9-KJ0Rg2XUMrZ_mZEkEqaf/view?usp=drivesdk"
+            link: "https://drive.google.com/file/d/1YSa3ISe2H01IaJplqo1agO9KziFEjT0F/view?usp=drivesdk"
         }
     ]
 },
