@@ -234,6 +234,16 @@ const novels = [
     cover: "Al Qassam k Mujahid.jpg",
     pdf: "https://drive.google.com/file/d/1GKbku5MwVzU5VQlUAIjuXSCCRX7STP0M/view?usp=drivesdk"
     },
+    {
+    title: "Mere Dil Ki Dhadkan",
+    author: "Ayesha Shabbir",
+    instagram: "",
+    genre: "Mafia Based · Love Marriage · Family Differences · Childhood Nikkah · True Story · Friendship · Possessiveness · Suspense",
+    status: "Ongoing",
+    description: "A mafia-based story revolving around love, marriage, family differences, childhood nikkah, friendship, possessiveness, and suspense.",
+    cover: "Mere Dil Ki Dhadkan.jpg",
+    pdf: "https://drive.google.com/file/d/1aMWXdFBWeoDH1-tAkJjkx90ADcNa9_o1/view?usp=drivesdk"
+},
 ];
 
 const grid = document.getElementById("book-grid");
