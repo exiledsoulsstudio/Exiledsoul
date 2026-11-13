@@ -100,15 +100,24 @@ const novels = [
         pdf: "https://drive.google.com/file/d/1sFGKpdACqTU-tHEzU4T-dAeLkkp9hejn/view?usp=drivesdk"
     },
     {
-        title: "Uqdah (Episode 01)",
-        author: "Aliza Saeed (علیزہ سعید)",
-        instagram: "https://www.instagram.com/alizah.official_/",
-        genre: "Psychological Crime Thriller",
-        status: "Ongoing",
-        description: "A forensic pathologist falls in love with a famous biker while handling a serial killer case. The truth is revealed at the end, with insane plot twists!",
-        cover: "Uqdah.jpg",
-        pdf: "https://drive.google.com/file/d/1oxU7O0aDdb3l_-L1hgsLTflNGu5xArb0/view?usp=drivesdk"
-    },
+    title: "Uqdah",
+    author: "Aliza Saeed (علیزہ سعید)",
+    instagram: "https://www.instagram.com/alizah.official_/",
+    genre: "Psychological Crime Thriller",
+    status: "Ongoing",
+    description: "A forensic pathologist falls in love with a famous biker while handling a serial killer case. The truth is revealed at the end, with insane plot twists!",
+    cover: "Uqdah.jpg",
+    pdfs: [
+        {
+            title: "READ EPISODE 01",
+            link: "https://drive.google.com/file/d/1oxU7O0aDdb3l_-L1hgsLTflNGu5xArb0/view?usp=drivesdk"
+        },
+        {
+            title: "READ EPISODE 02",
+            link: "https://drive.google.com/file/d/1pjca2jbr9CpAUBxBmzUhFhc6wIMKlJ65/view?usp=drivesdk"
+        }
+    ]
+},
     {
         title: "Phir Bahar Aie (پھر بہار آئی)",
         author: "Isha Zahra (اشا زہرہ)",
