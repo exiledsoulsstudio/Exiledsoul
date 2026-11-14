@@ -129,15 +129,24 @@ const novels = [
         pdf: "https://drive.google.com/file/d/1xBr41V5XraQEWwv8Fl9XS_BYEdHNC9Df/view?usp=drivesdk"
     },
     {
-        title: "Ham Saath Hain",
-        author: "Narmin",
-        instagram: "https://www.instagram.com/narmin_novels/",
-        genre: "Friendship · Broken Love · Mystery",
-        status: "Episode 01",
-        description: "A story of friendship, broken love, and mystery.",
-        cover: "Ham Saath Hain.jpg",
-        pdf: "https://drive.google.com/file/d/1pzHQ0attsoA4a99kYsvei2Y7NUA79spY/view?usp=drivesdk"
-    },
+    title: "Ham Saath Hain",
+    author: "Narmin",
+    instagram: "https://www.instagram.com/narmin_novels/",
+    genre: "Friendship · Broken Love · Mystery",
+    status: "Ongoing",
+    description: "A story of friendship, broken love, and mystery.",
+    cover: "Ham Saath Hain.jpg",
+    pdfs: [
+        {
+            title: "READ EPISODE 01",
+            link: "https://drive.google.com/file/d/1pzHQ0attsoA4a99kYsvei2Y7NUA79spY/view?usp=drivesdk"
+        },
+        {
+            title: "READ EPISODE 02",
+            link: "https://drive.google.com/file/d/1IThHXx2DKBuTRhYcztBlcE8i0TMZJ9aO/view?usp=drivesdk"
+        }
+    ]
+},
     {
         title: "سرمائی",
         author: "Haleema Sadia",
