@@ -672,3 +672,69 @@ input:focus-visible {
     border-color: #b6c7b5;
     background: #edf3eb;
 }
+/* =================================
+   EXILED SOULS - SEGMENTS PAGE
+================================= */
+
+.segment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    margin-top: 35px;
+}
+
+.segment-card {
+    padding: 35px 25px;
+    border: 1px solid #d8cfc2;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.segment-card:hover {
+    background: #f8f3eb;
+    border-color: #b49a78;
+    transform: translateY(-4px);
+}
+
+.segment-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #2b2926;
+    margin-bottom: 10px;
+}
+
+.segment-card p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 1.7;
+    color: #8a735b;
+}
+
+.segment-card .coming-soon {
+    margin-top: 18px;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #a18a70;
+}
+
+/* READ NOW BUTTON */
+
+.segment-read-btn {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 20px;
+    background: #2b2926;
+    color: #f8f3eb;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.segment-read-btn:hover {
+    background: #e9dfd1;
+    color: #2b2926;
+}
