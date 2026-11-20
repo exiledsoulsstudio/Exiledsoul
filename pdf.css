@@ -677,49 +677,105 @@ input:focus-visible {
    EXILED SOULS - DARK RED THEME
 ================================= */
 
+/* =================================
+   EXILED SOULS - SEGMENTS
+================================= */
+
+/* SEGMENT GRID */
+
 .segment-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 24px;
-    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    width: 100%;
 }
 
+
+/* SEGMENT CARD */
+
 .segment-card {
-    padding: 35px 25px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    gap: 25px;
+
+    max-width: 900px;
+    width: 100%;
+    padding: 18px;
+
     background: #f5eeee;
     border: 1px solid #8b303b;
-    border-radius: 2px;
+    border-radius: 4px;
+
     transition: all 0.35s ease;
 }
 
 .segment-card:hover {
     background: #ead6d9;
     border-color: #650d1b;
-    transform: translateY(-5px);
-    box-shadow: 0 8px 22px rgba(75, 5, 20, 0.15);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(75, 5, 20, 0.12);
 }
 
-.segment-card h3 {
+
+/* SEGMENT IMAGE */
+
+.segment-image-box {
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    background: #ead6d9;
+}
+
+.segment-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.segment-card:hover .segment-image {
+    transform: scale(1.02);
+}
+
+
+/* SEGMENT CONTENT */
+
+.segment-content {
+    padding: 20px;
+}
+
+.card-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #963c4b;
+    margin-bottom: 15px;
+}
+
+.segment-content h3 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 600;
     color: #650d1b;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
-.segment-card p {
+.segment-content p {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    line-height: 1.8;
+    line-height: 1.9;
     color: #71343d;
 }
 
-.segment-card .coming-soon {
-    margin-top: 20px;
+.segment-content .coming-soon {
+    margin-top: 22px;
     font-style: italic;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.5px;
     color: #963c4b;
 }
+
 
 /* READ NOW BUTTON */
 
@@ -727,14 +783,17 @@ input:focus-visible {
     display: inline-block;
     margin-top: 18px;
     padding: 12px 22px;
+
     background: #650d1b;
     color: #fff5f5;
     border: 1px solid #650d1b;
+
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 1.2px;
+
     transition: all 0.3s ease;
 }
 
@@ -743,3 +802,28 @@ input:focus-visible {
     color: #650d1b;
     border-color: #8b303b;
 }
+
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 650px) {
+
+    .segment-card {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .segment-image-box {
+        height: 220px;
+    }
+
+    .segment-content {
+        padding: 15px;
+    }
+
+    .segment-content h3 {
+        font-size: 30px;
+    }
+
+}
+
