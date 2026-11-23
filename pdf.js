@@ -238,6 +238,16 @@ const novels = [
     cover: "Mere Dil Ki Dhadkan.jpg",
     pdf: "https://drive.google.com/file/d/1aMWXdFBWeoDH1-tAkJjkx90ADcNa9_o1/view?usp=drivesdk"
 },
+    {
+    title: "Maqsad (مقصد)",
+    author: "Fatima Asghar فاطمہ اصغر",
+    instagram: "https://www.instagram.com/fatima.asghar._/",
+    genre: "Crime Thriller",
+    status: "Complete",
+    description: "مقصد اسلام آباد کے پس منظر میں لکھی گئی ایک کرائم تھرلر ہے، جہاں عزت دار چہرے اکثر نقاب ثابت ہوتے ہیں، اور سب سے قریبی لوگ بھی وہ نہیں ہوتے جو دکھائی دیتے ہیں۔ مقصد تحقیقات کے نیچے محبت، پچھتاوے، اور کھو دیے گئے لوگوں کے قرض کی ایک خاموش کہانی چلتی ہے۔",
+    cover: "https://res.cloudinary.com/dk6ac44m/image/upload/v1795430637/2026112316095087.jpg",
+    pdf: "https://drive.google.com/file/d/14y1WNXPw4vRrmAPoIrw644Fr0p6eH7rq/view?usp=drivesdk"
+},
 ];
 
 const grid = document.getElementById("book-grid");
