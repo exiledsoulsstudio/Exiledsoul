@@ -77,7 +77,7 @@ const novels = [
         description: "مقصد اسلام آباد کے پس منظر میں لکھی گئی ایک کرائم تھرلر ہے، جہاں عزت دار چہرے اکثر نقاب ثابت ہوتے ہیں، اور سب سے قریبی لوگ بھی وہ نہیں ہوتے جو دکھائی دیتے ہیں۔ مقصد تحقیقات کے نیچے محبت، پچھتاوے، اور کھو دیے گئے لوگوں کے قرض کی ایک خاموش کہانی چلتی ہے۔",
         cover: "https://res.cloudinary.com/dk6ac44m/image/upload/v1795430637/2026112316095087.jpg,
         instagram: "https://www.instagram.com/fatima.asghar._/",
-        pdf: "https://drive.google.com/file/d/1iEH963zBef69VoRAa1rgvLcaK74ETIXx/view?usp=drivesdk"
+        pdf: "https://drive.google.com/file/d/14y1WNXPw4vRrmAPoIrw644Fr0p6eH7rq/view?usp=drivesdk"
     },
     {
         title: "Tum Meri Panha Ho",
