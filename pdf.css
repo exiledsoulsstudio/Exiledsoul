@@ -826,4 +826,24 @@ input:focus-visible {
     }
 
 }
+.pdf-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 28px;
+
+    border: 1px solid #c9a878;
+    color: #c9a878;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.pdf-button:hover {
+    background: #c9a878;
+    color: #111;
+}
 
