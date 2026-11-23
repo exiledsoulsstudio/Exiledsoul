@@ -769,13 +769,6 @@ input:focus-visible {
     color: #71343d;
 }
 
-.segment-content .coming-soon {
-    margin-top: 22px;
-    font-style: italic;
-    letter-spacing: 1.5px;
-    color: #963c4b;
-}
-
 
 /* READ NOW BUTTON */
 
@@ -846,4 +839,5 @@ input:focus-visible {
     background: #c9a878;
     color: #111;
 }
+
 
