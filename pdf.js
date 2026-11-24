@@ -248,6 +248,16 @@ const novels = [
     cover: "https://res.cloudinary.com/dk6ac44m/image/upload/v1795430637/2026112316095087.jpg",
     pdf: "https://drive.google.com/file/d/14y1WNXPw4vRrmAPoIrw644Fr0p6eH7rq/view?usp=drivesdk"
 },
+    {
+    title: "Zind",
+    author: "Aleena Hussain",
+    instagram: "",
+    genre: "Psychological Thriller · Self-Discovery · Intense Romance",
+    status: "Complete",
+    description: "A journey of self-discovery, buried secrets, and an intense romance shaped by a mysterious past.",
+    cover: "https://res.cloudinary.com/dk6ac44m/image/upload/v1795529622/%DB%8C%D9%82%DB%8C%D9%86_%D9%88%D8%A7%D8%AB%D9%82.png",
+    pdf: "https://drive.google.com/file/d/1x9bwSduzRbKhacze5jfaqn0WDqdZkEO9/view?usp=drivesdk"
+},
 ];
 
 const grid = document.getElementById("book-grid");
