@@ -268,6 +268,16 @@ const novels = [
     cover: "https://res.cloudinary.com/dk6ac44m/image/upload/v1795602103/%DB%8C%D9%82%DB%8C%D9%86_%D9%88%D8%A7%D8%AB%D9%82.jpg",
     pdf: "https://drive.google.com/file/d/1bKNV9WKNVVng8dLISvIxUKSX9Vr_Jr0N/view?usp=drivesdk"
 },
+    {
+    title: "Nokhaiz Khazaan (نوخیز خزاں)",
+    author: "Noor-ul-Aen",
+    instagram: "https://www.instagram.com/noorulaen__official/",
+    genre: "Poem",
+    status: "Complete",
+    description: "A reflection on the changing meaning of friendship in today's world, reminding us of the sincerity, loyalty, and understanding that true bonds deserve.",
+    cover: "https://res.cloudinary.com/dk6ac44m/image/upload/v1795602650/image0_1.jpg",
+    pdf: "https://drive.google.com/file/d/1vB-KpTblV98HTGovxvTHI59BzajDmPDs/view?usp=drivesdk"
+},
 ];
 
 const grid = document.getElementById("book-grid");
