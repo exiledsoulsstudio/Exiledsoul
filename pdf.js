@@ -258,6 +258,16 @@ const novels = [
     cover: "https://res.cloudinary.com/dk6ac44m/image/upload/v1795529622/%DB%8C%D9%82%DB%8C%D9%86_%D9%88%D8%A7%D8%AB%D9%82.png",
     pdf: "https://drive.google.com/file/d/1x9bwSduzRbKhacze5jfaqn0WDqdZkEO9/view?usp=drivesdk"
 },
+    {
+    title: "Yaqeen Wathik (Episodes 01–04)",
+    author: "Inaya Adnan (عِنایہ عدنان)",
+    instagram: "https://www.instagram.com/inyad._/",
+    genre: "Social Fiction · Mystery · Spiritual · Romance",
+    status: "Ongoing",
+    description: "ان تمام لوگوں کے نام جنھوں نے کبھی ہمت نہیں ہاری، اور ہمیشہ اپنے رب پر بھروسہ رکھ کر آگے بڑھتے رہے۔",
+    cover: "https://res.cloudinary.com/dk6ac44m/image/upload/v1795602103/%DB%8C%D9%82%DB%8C%D9%86_%D9%88%D8%A7%D8%AB%D9%82.jpg",
+    pdf: "https://drive.google.com/file/d/1bKNV9WKNVVng8dLISvIxUKSX9Vr_Jr0N/view?usp=drivesdk"
+},
 ];
 
 const grid = document.getElementById("book-grid");
