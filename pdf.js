@@ -278,6 +278,16 @@ const novels = [
     cover: "https://res.cloudinary.com/dk6ac44m/image/upload/v1795602650/image0_1.jpg",
     pdf: "https://drive.google.com/file/d/1vB-KpTblV98HTGovxvTHI59BzajDmPDs/view?usp=drivesdk"
 },
+    {
+    title: "Zehan Ka Qaidi (ذہن کا قیدی)",
+    author: "Miraal Fatimah (میرال فاطمہ)",
+    instagram: "https://www.instagram.com/miraal_fatimahh/",
+    genre: "Psychology · Self-Awareness · Emotional Well-being",
+    status: "Complete",
+    description: "ایک ایسی جنگ جس کا شور کسی کو سنائی نہیں دیتا، مگر جس میں انسان اندر ہی اندر ٹوٹتا رہتا ہے۔ کبھی کبھی انسان دوسروں سے نہیں، اپنے ہی ذہن سے ہار جاتا ہے۔ ہزاروں خیالات، ان گنت سوالات اور وہ باتیں جو کبھی ہوئیں ہی نہیں، مگر ذہن میں بار بار زندہ ہوتی رہتی ہیں۔ یہی Overthinking ہے، ایک ایسی قید جس کی دیواریں نظر نہیں آتیں۔",
+    cover: "https://res.cloudinary.com/dk6ac44m/image/upload/v1795700715/image0_4.jpg",
+    pdf: "https://drive.google.com/file/d/1AVjf4DaU4UweXeAERe2uQIlC7Jt89-3Z/view?usp=drivesdk"
+},
 ];
 
 const grid = document.getElementById("book-grid");
