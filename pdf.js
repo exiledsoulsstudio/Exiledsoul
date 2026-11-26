@@ -265,7 +265,7 @@ const novels = [
     genre: "Social Fiction · Mystery · Spiritual · Romance",
     status: "Ongoing",
     description: "ان تمام لوگوں کے نام جنھوں نے کبھی ہمت نہیں ہاری، اور ہمیشہ اپنے رب پر بھروسہ رکھ کر آگے بڑھتے رہے۔",
-    cover: "",
+    cover: "IMG_20261126_180358_857.jpg",
     pdf: "https://drive.google.com/file/d/1bKNV9WKNVVng8dLISvIxUKSX9Vr_Jr0N/view?usp=drivesdk"
 },
     {
